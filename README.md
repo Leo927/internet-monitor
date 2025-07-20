@@ -8,3 +8,7 @@ This is a simple repo that runs a grafana/promethus stack for monitoring interne
 
 # How to Run
 ```docker compose up```
+Access the dashbaord using the following URL:
+[http://localhost:3000/d/-fs18ztMz/speedtest-exporter-dashboard?orgId=1&from=now-24h&to=now&timezone=browser&var-instance=speedtest:9798&var-job=speedtest&refresh=5m](http://localhost:3000/d/-fs18ztMz/speedtest-exporter-dashboard?orgId=1&from=now-24h&to=now&timezone=browser&var-instance=speedtest:9798&var-job=speedtest&refresh=5m)
+
+[http://localhost:3000/d/xtkCtBkiz/prometheus-blackbox-exporter?var-interval=10s&orgId=1&from=now-1h&to=now&timezone=browser&var-target=$__all&refresh=10s](http://localhost:3000/d/xtkCtBkiz/prometheus-blackbox-exporter?var-interval=10s&orgId=1&from=now-1h&to=now&timezone=browser&var-target=$__all&refresh=10s)
